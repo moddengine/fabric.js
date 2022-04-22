@@ -32,9 +32,11 @@
     "build": "node build.js modules=ALL exclude=json,gestures",
     "test": "node test.js && jshint src"
   },
-  "dependencies": {
+  "optionalDependencies": {
     "canvas": "1.1.x",
-    "jsdom": "1.1.x",
+    "jsdom": "1.1.x"
+  },
+  "dependencies": {
     "xmldom": "0.1.x"
   },
   "devDependencies": {
